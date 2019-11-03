@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
   <header>
-
-  <!–– the type in the browser tab -->
-  <title>My Simple Website</title>
+  <!-- This is the title that shows up on your browser's tab -->
+  <title>Recipe Search</title>
+  <!-- This is where we insert our CSS file -->
+  <!-- This is where we insert our Javascript file-->
   <script src="script.js"></script>
   </header>
+  <!-- Everything we want the user to see goes in the body tag (aka. the good stuff -->
   <body>
     <h1>Title</h1>
+    <!-- This is our search field -->
     <input id="query"></input>
+    <!-- This is the button the user clicks to get results from their search -->
     <button onClick="renderRecipes()">Search</button>
-    <p id="search"></p>
+    <!-- This is our list of results.. it's empty for now, but no worries! We will insert the results via Javascript when the user clicks. -->
+    <ul id="results">
+    </ul>
   </body>
 </html>
