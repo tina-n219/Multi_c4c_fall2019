@@ -4,18 +4,21 @@
   <!-- This is the title that shows up on your browser's tab -->
   <title>Recipe Search</title>
   <!-- This is where we insert our CSS file -->
+  <link rel="stylesheet" href="style.css"/>
   <!-- This is where we insert our Javascript file-->
   <script src="script.js"></script>
   </header>
   <!-- Everything we want the user to see goes in the body tag (aka. the good stuff -->
   <body>
-    <h1>Title</h1>
+    <h1>Recipe Search!</h1>
     <!-- This is our search field -->
-    <input id="query"></input>
+    <input id="search"></input>
     <!-- This is the button the user clicks to get results from their search -->
-    <button onClick="renderRecipes()">Search</button>
+    <button id="search-button" onClick="renderRecipes()">Search</button>
     <!-- This is our list of results.. it's empty for now, but no worries! We will insert the results via Javascript when the user clicks. -->
     <ul id="results">
+      <li>Kale Thing</li>
+      <li>Another Thing</li>
     </ul>
   </body>
 </html>
