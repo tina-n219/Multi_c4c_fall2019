@@ -1,0 +1,44 @@
+/* Optional: importing Google Fonts for pretty fonts... */
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    color: #E67E22;
+    margin: 20px;
+}
+
+#search {
+    margin: 20px;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 16px;
+    min-width: 300px;
+}
+
+#search-button {
+    box-shadow: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    border-radius: 25px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+
+li {
+    background-color: #FCF3CF;
+    max-width: 400px;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
