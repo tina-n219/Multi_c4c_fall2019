@@ -1,7 +1,7 @@
 //API documentation: https://spoonacular.com/food-api
 
 // !! REPLACE YOUR API KEY HERE !!
-let key = "a6c216ba300142909908362bab562b87";
+let key = "9860175d99234c3183aa34e27a1f584f";
 
 // 1) This function sends a query to the API and asks for a list of all recipes. It then passes it into a helper function that grabs the ID's for each individual recipe. We need the ID's so we get to query the API for even more information!
 function renderRecipes() {
